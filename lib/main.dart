@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_first_app/src/features/authentication/screens/splash_screen/splash_screen.dart';
 import 'package:my_first_app/src/utils/theme/theme.dart';
 
 void main() => runApp(const App());
@@ -11,8 +12,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      themeMode: ThemeMode.dark,
-      home: AppHome(),
+      themeMode: ThemeMode.light,
+      home: SplashScreen(),
     );
   }
 }
