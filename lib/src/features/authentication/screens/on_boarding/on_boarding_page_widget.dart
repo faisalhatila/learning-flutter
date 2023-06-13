@@ -20,10 +20,15 @@ class OnBoardingPageWidget extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Image(
-            image: AssetImage(model.image),
-            height: size.height * 0.4,
-          ),
+          model.isNetworkImage
+              ? Image(
+                  image: NetworkImage(model.networkImage),
+                  height: size.height * 0.4,
+                )
+              : Image(
+                  image: AssetImage(model.image),
+                  height: size.height * 0.4,
+                ),
           Column(
             children: [
               Text(model.title,

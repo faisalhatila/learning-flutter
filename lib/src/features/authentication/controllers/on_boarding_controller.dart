@@ -15,6 +15,8 @@ class OnBoardingController extends GetxController {
     OnBoardingPageWidget(
       model: OnBoardingModel(
         image: tOnBoardingImage1,
+        isNetworkImage: false,
+        networkImage: "",
         title: tOnBoardingTitle1,
         subtitle: tOnBoardingSubTitle1,
         counterText: tOnBoardingCounter1,
@@ -24,6 +26,8 @@ class OnBoardingController extends GetxController {
     OnBoardingPageWidget(
       model: OnBoardingModel(
         image: tOnBoardingImage2,
+        isNetworkImage: false,
+        networkImage: "",
         title: tOnBoardingTitle2,
         subtitle: tOnBoardingSubTitle2,
         counterText: tOnBoardingCounter2,
@@ -32,7 +36,9 @@ class OnBoardingController extends GetxController {
     ),
     OnBoardingPageWidget(
       model: OnBoardingModel(
+        isNetworkImage: false,
         image: tOnBoardingImage3,
+        networkImage: "",
         title: tOnBoardingTitle3,
         subtitle: tOnBoardingSubTitle3,
         counterText: tOnBoardingCounter3,

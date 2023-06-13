@@ -1,3 +1,8 @@
+// -- Generic Text --------------------------------
+
+const String tLogin = "Login";
+const String tSignup = "Signup";
+
 // -- Splash Screen Text --------------------------------
 
 const String tAppName = ".appable/";
@@ -16,3 +21,8 @@ const String tOnBoardingSubTitle3 =
 const String tOnBoardingCounter1 = "1/3";
 const String tOnBoardingCounter2 = "2/3";
 const String tOnBoardingCounter3 = "3/3";
+
+// -- On Boarding Text --------------------------------
+const String tWelcomeTitle = "Build Awesome Apps";
+const String tWelcomeSubTitle =
+    "Let's put your creativity on the development highway, craft apps that everyone love";
