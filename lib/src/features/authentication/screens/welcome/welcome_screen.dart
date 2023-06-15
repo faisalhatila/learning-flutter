@@ -10,6 +10,9 @@ import 'package:my_first_app/src/constants/colors.dart';
 import 'package:my_first_app/src/constants/image_strings.dart';
 import 'package:my_first_app/src/constants/sizes.dart';
 import 'package:my_first_app/src/constants/text_strings.dart';
+import 'package:my_first_app/src/features/authentication/screens/signup/signup_screen.dart';
+
+import '../login/login_screen.dart';
 
 class Welcome extends StatelessWidget {
   const Welcome({Key? key}) : super(key: key);
@@ -68,7 +71,7 @@ class Welcome extends StatelessWidget {
                     children: [
                       Expanded(
                         child: OutlinedButton(
-                          onPressed: () => {},
+                          onPressed: () => Get.to(() => LoginScreen()),
                           child: Text(
                             tLogin.toUpperCase(),
                           ),
@@ -79,7 +82,7 @@ class Welcome extends StatelessWidget {
                       ),
                       Expanded(
                         child: ElevatedButton(
-                          onPressed: () => {},
+                          onPressed: () => Get.to(() => SignUpScreen()),
                           child: Text(
                             tSignup.toUpperCase(),
                           ),

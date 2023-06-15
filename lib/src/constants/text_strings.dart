@@ -26,3 +26,22 @@ const String tOnBoardingCounter3 = "3/3";
 const String tWelcomeTitle = "Build Awesome Apps";
 const String tWelcomeSubTitle =
     "Let's put your creativity on the development highway, craft apps that everyone love";
+
+// -- Login Text --------------------------------
+const String tLoginTitle = "Welcome Back";
+const String tLoginSubTitle = "Make it work, make it right, make it fast";
+const String tRememberMe = "Remember Me?";
+const String tDontHaveAnAccount = "Don't have an account? ";
+const String tEmail = "Email";
+const String tPassword = "Password";
+const String tForgetPassword = "Forget Password?";
+const String tSignInWithGoogle = "Sign In With Google";
+
+// -- Signup Text --------------------------------
+const String tSignUpTitle = "Get On Board";
+const String tSignUpSubTitle =
+    "Create your profile to start your journey with us...";
+const String tAlreadyHaveAnAccount = "Already have an account? ";
+const String tFullName = "Full Name";
+const String tPhoneNo = "Phone Number";
+const String tSignUpWithGoogle = "Sign Up With Google";

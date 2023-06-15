@@ -11,3 +11,6 @@ const String tOnBoardingImage3 =
 // -- Welcome Screnn Images --------------------------------
 const String tWelcomeScreenImage =
     "assets/images/welcome_images/welcome_screen_image.png";
+
+// -- Welcome Screnn Images --------------------------------
+const String tGoogleLogoImage = "assets/logo/google-logo.png";
