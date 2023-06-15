@@ -1,5 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
+import 'package:my_first_app/src/features/authentication/screens/forget_password/forget_password_mail/forget_password_mail.dart';
+import 'package:my_first_app/src/features/authentication/screens/forget_password/forget_password_phone/forget_password_phone.dart';
 
 import '../../../../../constants/sizes.dart';
 import '../../../../../constants/text_strings.dart';
@@ -28,7 +31,10 @@ class ForgetPasswordScreen {
             btnIcon: Icons.mail_outline_rounded,
             title: tEmail,
             subTitle: tResetViaEmail,
-            onTap: () {},
+            onTap: () {
+              Navigator.pop(context);
+              Get.to(() => ForgetPasswordMailScreen());
+            },
           ),
           SizedBox(
             height: 20,
@@ -37,7 +43,10 @@ class ForgetPasswordScreen {
             btnIcon: Icons.mobile_friendly_rounded,
             title: tPhoneNo,
             subTitle: tResetViaPhone,
-            onTap: () {},
+            onTap: () {
+              Navigator.pop(context);
+              Get.to(() => ForgetPasswordPhoneScreen());
+            },
           ),
         ]),
       ),

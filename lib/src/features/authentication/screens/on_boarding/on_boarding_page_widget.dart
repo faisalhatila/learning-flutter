@@ -31,8 +31,7 @@ class OnBoardingPageWidget extends StatelessWidget {
                 ),
           Column(
             children: [
-              Text(model.title,
-                  style: Theme.of(context).textTheme.headlineSmall),
+              Text(model.title, style: Theme.of(context).textTheme.headline3),
               Text(
                 model.subtitle,
                 textAlign: TextAlign.center,

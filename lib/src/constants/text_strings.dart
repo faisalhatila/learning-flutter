@@ -60,3 +60,4 @@ const String tForgetPhoneSubTitle =
 // -- Forget Password Via E-Mail - Text --------------------------------
 const String tForgetMailSubTitle =
     "Enter your registered E-Mail No to receive OTP";
+const String tNext = "Next";
