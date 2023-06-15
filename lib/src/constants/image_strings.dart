@@ -14,3 +14,7 @@ const String tWelcomeScreenImage =
 
 // -- Welcome Screnn Images --------------------------------
 const String tGoogleLogoImage = "assets/logo/google-logo.png";
+
+// -- Forget Password Images --------------------------------
+const String tForgetPasswordImage =
+    "assets/images/forget_password/forget-password.png";

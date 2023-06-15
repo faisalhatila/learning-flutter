@@ -45,3 +45,18 @@ const String tAlreadyHaveAnAccount = "Already have an account? ";
 const String tFullName = "Full Name";
 const String tPhoneNo = "Phone Number";
 const String tSignUpWithGoogle = "Sign Up With Google";
+
+// -- Forget Password Text --------------------------------
+const String tForgetPasswordTitle = "Make Selection";
+const String tForgetPasswordSubTitle =
+    "Select one of the options given below to reset your password.";
+const String tResetViaEmail = "Reset via E-Mail Verification";
+const String tResetViaPhone = "Reset via Phone Verification";
+
+// -- Forget Password Via Phone - Text --------------------------------
+const String tForgetPhoneSubTitle =
+    "Enter your registered Phone No to receive OTP";
+
+// -- Forget Password Via E-Mail - Text --------------------------------
+const String tForgetMailSubTitle =
+    "Enter your registered E-Mail No to receive OTP";
