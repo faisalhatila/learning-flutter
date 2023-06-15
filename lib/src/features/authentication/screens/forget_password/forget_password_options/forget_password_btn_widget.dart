@@ -22,7 +22,9 @@ class ForgetPasswordBtnWidget extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10.0),
-          color: Colors.grey.shade200,
+          color: Theme.of(context).brightness == Brightness.dark
+              ? Colors.grey.shade900
+              : Colors.grey.shade200,
         ),
         child: Row(children: [
           Icon(
