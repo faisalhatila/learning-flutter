@@ -22,9 +22,12 @@ class Welcome extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Image(
-              image: AssetImage(tWelcomeScreenImage),
-              height: height * 0.6,
+            Hero(
+              tag: 'welcome-image-tag',
+              child: Image(
+                image: AssetImage(tWelcomeScreenImage),
+                height: height * 0.6,
+              ),
             ),
             Column(
               children: [
